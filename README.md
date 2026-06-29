@@ -62,7 +62,7 @@ services:
       replicas: 2
 
 bash
-# Docker Compose
+ Docker Compose
 docker compose ps
 docker kill <container_id>
 docker compose ps    # with restart: unless-stopped, it should come back
